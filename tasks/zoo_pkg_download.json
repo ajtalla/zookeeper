@@ -12,7 +12,7 @@
       "url": "{{ zookeeper_mirror }}",
       "dest": "/tmp"
     },
-    "when": "dir.stat.exists == False",
+    "when": "dir.stat.exists",
     "tags": [
       "zookeeper_download"
     ]
