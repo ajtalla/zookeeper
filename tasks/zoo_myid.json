@@ -1,6 +1,6 @@
 [
   {
-    "name": "Template myid to {{ zookeeper_data_dir}}/myid",
+    "name": "Template myid to {{ zookeeper_data_dir }}/myid",
     "template": {
       "src": "myid.j2",
       "dest": "{{ zookeeper_data_dir }}/myid"

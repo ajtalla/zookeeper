@@ -9,7 +9,7 @@
   {
     "name": "Download Apache ZooKeeper",
     "get_url": {
-      "url": "{{zookeeper_mirror}}",
+      "url": "{{ zookeeper_mirror }}",
       "dest": "/tmp"
     },
     "when": "dir.stat.exists == False",

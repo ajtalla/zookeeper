@@ -1,8 +1,8 @@
 [
   {
-    "name": "Pausing the play for 40seconds to fully up the service",
+    "name": "Pausing the play for 20seconds to fully up the service",
     "pause": {
-      "seconds": 40
+      "seconds": 20
     }
   },
   {

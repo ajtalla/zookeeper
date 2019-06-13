@@ -1,6 +1,7 @@
 galaxy_info:
+  role_name: zookeeper_install
   author: Ajay Talla
-  description: your description
+  description: This role will install zookeeper
   company: Zeta Global
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -14,4 +15,10 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  #license: license (GPLv2, CC-BY, etc)
+  license: BSD
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 7
